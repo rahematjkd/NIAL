@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: Arial;
+}
+
+header{
+    display: flex;
+    height: 85px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    height: 85px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links {
+    width: 90%;
+    margin-left: 300px;
+    font-size: 13px;
+    font-weight: 550;
+}
+.links>p{
+    padding-right: 30px;
+    padding-top: 1px;
+}
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.nav-logo {
+    width: 110px;
+    height: 81px;
+}
+.logo {
+    background-image: url(http://www.nialjewar.com/img/logo.png);
+    background-size: contain;
+    width: 100%;
+    height: 81px;
+    margin-left: 100px;
+}
+.op1 {
+    display: inline;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    font-weight: 550;
+}
+
+.nav-select select {
+    border: none;
+}
+
+.hero-section{
+    background-image: url(http://www.nialjewar.com/img/SLIDE_02.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.travel-img>img{
+    border-radius: 50%;
+}
+
+.travelers{
+    display: flex;
+    align-items: center; 
+}
+.hero-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.hero-content{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 90px;
+    background-color: #00000099;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.travel-text{
+    margin-left: 10px;
+}
+.travel-text>h3{
+    font-weight: 400;
+}
+.travel-text>span{
+    font-size: 14px;
+}
+.bgcolor{
+    background-color: #ffffff33;
+    width: 25%;
+    padding-left: 10px;
+    margin-left: 100px;
+}
+.sec {
+    padding-right: 100px;
+}
+
+.link-section{
+    height: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: .99rem;
+    font-weight: 400;
+    background-color: #ffffff;
+}
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 45px;
+    width: 100%;
+    border-bottom: .2px solid rgba(0, 0, 0, 0.307);
+    cursor: pointer;
+}
+
+.marquee-section{
+    padding-left: 50px;
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+    width: 1400px;
+    height: 30px;
+    font-size: .7rem;
+    background-color: #f2f2f2;
+}
+marquee{
+    width: 1200px;
+}
+.marquee-text{
+    display: flex;
+    align-items: center;
+    background-color: #3399ff;
+    color: #ffffff;
+}
+.breaking{
+    background-color: #ffea00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.icon{
+    width: 27px;
+    height: 27px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.tabs{
+    display: flex;
+    height: 210px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+    padding: 10px 95px 0px;
+    cursor: pointer;
+}
+.tab1>span{
+    margin-left: 10px;
+}
+.tab1{
+    display: flex;
+    height: 85px;
+    width: 295px;
+    border: .2px solid rgba(0, 0, 0, 0.307);
+    align-items: center;
+    background-color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.foot-one{
+    height: 420px;
+    background-image: url(http://www.nialjewar.com/img/aboutus.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-part1{
+    width: 285px;
+    height: 231px;
+    margin-top: 40px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.content-part2{
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+}
+
+.content-part3{
+    width: 280px;
+    height: 300px;
+    margin-top: 40px;
+}
+form input::placeholder{
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+}
+form button{
+    height: 35px;
+    width: 134px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+form input{
+    height: 40px;
+    width: 390px;
+    background-color: inherit;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.form-section>h3{
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.content-part3>h3{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    padding-bottom: 20px;
+}
+.address-one{
+    font-size: 18px;
+}
+.address-two>p{
+    font-size: 14px;
+    margin-left: 22px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    width: 271px;
+}
+
+.mail{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.phone{
+    font-size: 14px;
+}
+
+.p1-logo{
+    width: 100px;
+    height: 75px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shadow-over-img{
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.form-section form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foot-two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 42px;
+    background-color: #007bff;
+    color: white;
+    font-size: .9rem ;
+    padding-left: 120px;
+    padding-right: 100px;
+}
+.content1{
+    display: flex;
+    align-items: center;
+}
+.address-one,.mail,.phone{
+    display: flex;
+}
+
